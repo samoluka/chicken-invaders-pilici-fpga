@@ -1,0 +1,16 @@
+Fitter Status : Successful - Fri Feb 07 09:50:30 2020
+Quartus II 64-Bit Version : 13.1.0 Build 162 10/23/2013 SJ Web Edition
+Revision Name : Projekat
+Top-level Entity Name : GlavnaSema
+Family : Cyclone III
+Device : EP3C16F484C6
+Timing Models : Final
+Total logic elements : 13,351 / 15,408 ( 87 % )
+    Total combinational functions : 13,313 / 15,408 ( 86 % )
+    Dedicated logic registers : 4,269 / 15,408 ( 28 % )
+Total registers : 4269
+Total pins : 65 / 347 ( 19 % )
+Total virtual pins : 0
+Total memory bits : 178,176 / 516,096 ( 35 % )
+Embedded Multiplier 9-bit elements : 0 / 112 ( 0 % )
+Total PLLs : 0 / 4 ( 0 % )

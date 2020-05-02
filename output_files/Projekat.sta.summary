@@ -1,0 +1,77 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'clock'
+Slack : -9.901
+TNS   : -22731.762
+
+Type  : Slow 1200mV 85C Model Setup 'tastatura:inst82|KeyboardInterface:inst21|Debouncer:inst40|inst1'
+Slack : -0.550
+TNS   : -1.012
+
+Type  : Slow 1200mV 85C Model Hold 'clock'
+Slack : 0.322
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'tastatura:inst82|KeyboardInterface:inst21|Debouncer:inst40|inst1'
+Slack : 0.382
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clock'
+Slack : -3.000
+TNS   : -4557.360
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'tastatura:inst82|KeyboardInterface:inst21|Debouncer:inst40|inst1'
+Slack : -1.000
+TNS   : -19.000
+
+Type  : Slow 1200mV 0C Model Setup 'clock'
+Slack : -8.883
+TNS   : -20132.486
+
+Type  : Slow 1200mV 0C Model Setup 'tastatura:inst82|KeyboardInterface:inst21|Debouncer:inst40|inst1'
+Slack : -0.391
+TNS   : -0.391
+
+Type  : Slow 1200mV 0C Model Hold 'clock'
+Slack : 0.283
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'tastatura:inst82|KeyboardInterface:inst21|Debouncer:inst40|inst1'
+Slack : 0.344
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clock'
+Slack : -3.000
+TNS   : -4557.360
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'tastatura:inst82|KeyboardInterface:inst21|Debouncer:inst40|inst1'
+Slack : -1.000
+TNS   : -19.000
+
+Type  : Fast 1200mV 0C Model Setup 'clock'
+Slack : -5.290
+TNS   : -11446.837
+
+Type  : Fast 1200mV 0C Model Setup 'tastatura:inst82|KeyboardInterface:inst21|Debouncer:inst40|inst1'
+Slack : 0.144
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'clock'
+Slack : 0.150
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'tastatura:inst82|KeyboardInterface:inst21|Debouncer:inst40|inst1'
+Slack : 0.198
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clock'
+Slack : -3.000
+TNS   : -4662.378
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'tastatura:inst82|KeyboardInterface:inst21|Debouncer:inst40|inst1'
+Slack : -1.000
+TNS   : -19.000
+
+------------------------------------------------------------

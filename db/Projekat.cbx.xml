@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="Projekat">
+		<CBX_INST_ENTRY INSTANCE_NAME="|GlavnaSema|Binary2BCD:inst64|lpm_mult:Mult0|multcore:mult_core|mpar_add:padder|lpm_add_sub:adder[0]" CBX_FILE_NAME="add_sub_gfh.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|GlavnaSema|SlikaBrod2:inst17|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_58r3.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|GlavnaSema|SlikaMetak2:inst171|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_mcr3.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|GlavnaSema|Binary2BCD:inst65|lpm_mult:Mult0|multcore:mult_core|mpar_add:padder|lpm_add_sub:adder[0]" CBX_FILE_NAME="add_sub_gfh.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|GlavnaSema|SlikaJajeNovo:inst13|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_b6r3.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|GlavnaSema|SlikaJajeNovo:inst178|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_b6r3.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|GlavnaSema|SlikaBrod1:inst16|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_48r3.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|GlavnaSema|SlikaMetak1:inst170|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_lcr3.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|GlavnaSema|SlikaMetak3:inst172|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_ncr3.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|GlavnaSema|Svi_Pilici:inst153|SlikaPileta:inst|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_rns3.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

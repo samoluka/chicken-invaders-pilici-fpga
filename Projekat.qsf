@@ -1,0 +1,211 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 1991-2013 Altera Corporation
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, Altera MegaCore Function License 
+# Agreement, or other applicable license agreement, including, 
+# without limitation, that your use is for the sole purpose of 
+# programming logic devices manufactured by Altera and sold by 
+# Altera or its authorized distributors.  Please refer to the 
+# applicable agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus II 64-Bit
+# Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
+# Date created = 17:13:05  January 24, 2020
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		Projekat_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus II software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "Cyclone III"
+set_global_assignment -name DEVICE EP3C16F484C6
+set_global_assignment -name TOP_LEVEL_ENTITY GlavnaSema
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 13.1
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "17:13:05  JANUARY 24, 2020"
+set_global_assignment -name LAST_QUARTUS_VERSION 13.1
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 1
+set_global_assignment -name NOMINAL_CORE_SUPPLY_VOLTAGE 1.2V
+set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
+set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "2.5 V"
+set_location_assignment PIN_P22 -to ps2clk
+set_location_assignment PIN_P21 -to ps2data
+set_location_assignment PIN_H19 -to RED[0]
+set_location_assignment PIN_H17 -to RED[1]
+set_location_assignment PIN_H20 -to RED[2]
+set_location_assignment PIN_H21 -to RED[3]
+set_location_assignment PIN_L22 -to V_SYNC
+set_location_assignment PIN_L21 -to H_SYNC
+set_location_assignment PIN_H22 -to GREEN[0]
+set_location_assignment PIN_J17 -to GREEN[1]
+set_location_assignment PIN_K17 -to GREEN[2]
+set_location_assignment PIN_J21 -to GREEN[3]
+set_location_assignment PIN_K21 -to BLUE[1]
+set_location_assignment PIN_J22 -to BLUE[2]
+set_location_assignment PIN_K18 -to BLUE[3]
+set_location_assignment PIN_B18 -to pin_name1
+set_location_assignment PIN_F15 -to pin_name2
+set_location_assignment PIN_A19 -to pin_name3
+set_location_assignment PIN_B19 -to pin_name4
+set_location_assignment PIN_C19 -to pin_name5
+set_location_assignment PIN_D19 -to pin_name6
+set_location_assignment PIN_G15 -to pin_name7
+set_location_assignment PIN_D15 -to pin_name8
+set_location_assignment PIN_A16 -to pin_name9
+set_location_assignment PIN_B16 -to pin_name10
+set_location_assignment PIN_E15 -to pin_name11
+set_location_assignment PIN_A17 -to pin_name12
+set_location_assignment PIN_B17 -to pin_name13
+set_location_assignment PIN_F14 -to pin_name14
+set_location_assignment PIN_A13 -to pin_name15
+set_location_assignment PIN_B13 -to pin_name16
+set_location_assignment PIN_C13 -to pin_name17
+set_location_assignment PIN_A14 -to pin_name18
+set_location_assignment PIN_B14 -to pin_name19
+set_location_assignment PIN_E14 -to pin_name20
+set_location_assignment PIN_A15 -to pin_name21
+set_location_assignment PIN_E11 -to pin_name22
+set_location_assignment PIN_F11 -to pin_name23
+set_location_assignment PIN_H12 -to pin_name24
+set_location_assignment PIN_H13 -to pin_name25
+set_location_assignment PIN_G12 -to pin_name26
+set_location_assignment PIN_F12 -to pin_name27
+set_location_assignment PIN_F13 -to pin_name28
+set_location_assignment PIN_V7 -to pin_name29
+set_location_assignment PIN_U8 -to pin_name30
+set_location_assignment PIN_T9 -to pin_name31
+set_location_assignment PIN_T10 -to pin_name32
+set_location_assignment PIN_R12 -to pin_name33
+set_location_assignment PIN_T12 -to pin_name34
+set_location_assignment PIN_R14 -to pin_name35
+set_location_assignment PIN_AB7 -to pin_name36
+set_location_assignment PIN_G21 -to clock
+set_location_assignment PIN_T15 -to SW[7]
+set_location_assignment PIN_AB9 -to SW[6]
+set_location_assignment PIN_V15 -to SW[5]
+set_location_assignment PIN_W17 -to SW[4]
+set_location_assignment PIN_J6 -to SW[3]
+set_location_assignment PIN_H5 -to SW[2]
+set_location_assignment PIN_H6 -to SW[1]
+set_location_assignment PIN_G4 -to SW[0]
+set_location_assignment PIN_AB19 -to zivod[2]
+set_location_assignment PIN_AA18 -to zivod[1]
+set_location_assignment PIN_AB17 -to zivod[0]
+set_global_assignment -name BSF_FILE Komponente/Svi_Pilici.bsf
+set_global_assignment -name MIF_FILE Komponente/rainbow.mif
+set_global_assignment -name MIF_FILE Komponente/pozadina.mif
+set_global_assignment -name MIF_FILE Komponente/chicken.mif
+set_global_assignment -name BSF_FILE Komponente/BojaPileta.bsf
+set_global_assignment -name BSF_FILE Komponente/Batak.bsf
+set_global_assignment -name SOURCE_FILE SlikaMetak3.cmp
+set_global_assignment -name SOURCE_FILE SlikaMetak2.cmp
+set_global_assignment -name SOURCE_FILE SlikaMetak1.cmp
+set_global_assignment -name VHDL_FILE SlikaMetak3.vhd
+set_global_assignment -name VHDL_FILE SlikaMetak2.vhd
+set_global_assignment -name VHDL_FILE SlikaMetak1.vhd
+set_global_assignment -name VHDL_FILE SlikaJajeNovo.vhd
+set_global_assignment -name VHDL_FILE SlikaBrod2.vhd
+set_global_assignment -name VHDL_FILE SlikaBrod1.vhd
+set_global_assignment -name SOURCE_FILE SlikaSuriken.cmp
+set_global_assignment -name VHDL_FILE SlikaSuriken.vhd
+set_global_assignment -name SOURCE_FILE SlikaJajeNovo.cmp
+set_global_assignment -name SOURCE_FILE SlikaBrod2.cmp
+set_global_assignment -name SOURCE_FILE SlikaBrod1.cmp
+set_global_assignment -name SOURCE_FILE SlikaPileta.cmp
+set_global_assignment -name VHDL_FILE SlikaPileta.vhd
+set_global_assignment -name BSF_FILE Komponente/Pilici.bsf
+set_global_assignment -name VHDL_FILE Komponente/Binary2BCD.vhd
+set_global_assignment -name BSF_FILE Komponente/Binary2BCD.bsf
+set_global_assignment -name BSF_FILE Komponente/detekcijaSudara.bsf
+set_global_assignment -name BDF_FILE Komponente/detekcijaSudara.bdf
+set_global_assignment -name BSF_FILE Komponente/CD4.bsf
+set_global_assignment -name BDF_FILE Komponente/CD4.bdf
+set_global_assignment -name BSF_FILE Komponente/VGAController.bsf
+set_global_assignment -name BDF_FILE Komponente/VGAController.bdf
+set_global_assignment -name BSF_FILE Komponente/tastatura.bsf
+set_global_assignment -name BDF_FILE Komponente/tastatura.bdf
+set_global_assignment -name BSF_FILE Komponente/seven_segment_digit_interface.bsf
+set_global_assignment -name BSF_FILE Komponente/RisingEdge.bsf
+set_global_assignment -name BDF_FILE Komponente/RisingEdge.bdf
+set_global_assignment -name VHDL_FILE Komponente/REGX.vhd
+set_global_assignment -name BSF_FILE Komponente/REGX.bsf
+set_global_assignment -name BSF_FILE Komponente/REG1_LD_INC.bsf
+set_global_assignment -name BDF_FILE Komponente/REG1_LD_INC.bdf
+set_global_assignment -name BSF_FILE Komponente/REG1_INC_CL.bsf
+set_global_assignment -name BDF_FILE Komponente/REG1_INC_CL.bdf
+set_global_assignment -name BSF_FILE Komponente/Player.bsf
+set_global_assignment -name BDF_FILE Komponente/Player.bdf
+set_global_assignment -name BSF_FILE Komponente/pile.bsf
+set_global_assignment -name BDF_FILE Komponente/pile.bdf
+set_global_assignment -name BSF_FILE Komponente/objekat.bsf
+set_global_assignment -name BDF_FILE Komponente/objekat.bdf
+set_global_assignment -name VHDL_FILE Komponente/MP2X.vhd
+set_global_assignment -name BSF_FILE Komponente/MP2X.bsf
+set_global_assignment -name BSF_FILE Komponente/Metkovi.bsf
+set_global_assignment -name BDF_FILE Komponente/Metkovi.bdf
+set_global_assignment -name BSF_FILE Komponente/metak.bsf
+set_global_assignment -name BDF_FILE Komponente/metak.bdf
+set_global_assignment -name BSF_FILE Komponente/keyHoldDetect.bsf
+set_global_assignment -name BDF_FILE Komponente/keyHoldDetect.bdf
+set_global_assignment -name BSF_FILE Komponente/KeyDetector.bsf
+set_global_assignment -name BDF_FILE Komponente/KeyDetector.bdf
+set_global_assignment -name BSF_FILE Komponente/KeyboardInterface.bsf
+set_global_assignment -name BDF_FILE Komponente/KeyboardInterface.bdf
+set_global_assignment -name BDF_FILE Komponente/GlavnaSema.bdf
+set_global_assignment -name BSF_FILE Komponente/Debouncer.bsf
+set_global_assignment -name BDF_FILE Komponente/Debouncer.bdf
+set_global_assignment -name BSF_FILE Komponente/crtanje_cetvorougla.bsf
+set_global_assignment -name BDF_FILE Komponente/crtanje_cetvorougla.bdf
+set_global_assignment -name VHDL_FILE Komponente/CONSTX.vhd
+set_global_assignment -name BSF_FILE Komponente/CONSTX.bsf
+set_global_assignment -name VHDL_FILE Komponente/CMPX.vhd
+set_global_assignment -name BSF_FILE Komponente/CMPX.bsf
+set_global_assignment -name VHDL_FILE Komponente/CLK_DIVIDER.vhd
+set_global_assignment -name BSF_FILE Komponente/CLK_DIVIDER.bsf
+set_global_assignment -name BSF_FILE Komponente/CD8.bsf
+set_global_assignment -name BDF_FILE Komponente/CD8.bdf
+set_global_assignment -name VHDL_FILE Komponente/7_segment_digit_interface.vhd
+set_global_assignment -name BDF_FILE output_files/deadchicken.bdf
+set_global_assignment -name BDF_FILE output_files/Pilici.bdf
+set_global_assignment -name BDF_FILE Komponente/Pilici.bdf
+set_global_assignment -name CDF_FILE output_files/Chain17.cdf
+set_global_assignment -name CDF_FILE output_files/Chain18.cdf
+set_global_assignment -name BDF_FILE Komponente/Projekat.bdf
+set_global_assignment -name BDF_FILE Komponente/BojaPileta.bdf
+set_global_assignment -name BDF_FILE Komponente/Svi_Pilici.bdf
+set_global_assignment -name QIP_FILE SlikaPileta.qip
+set_global_assignment -name CDF_FILE output_files/Chain1.cdf
+set_global_assignment -name QIP_FILE SlikaJajeNovo.qip
+set_global_assignment -name QIP_FILE SlikaBrod1.qip
+set_global_assignment -name QIP_FILE SlikaBrod2.qip
+set_global_assignment -name QIP_FILE SlikaSuriken.qip
+set_global_assignment -name QIP_FILE SlikaMetak1.qip
+set_global_assignment -name QIP_FILE SlikaMetak2.qip
+set_global_assignment -name QIP_FILE SlikaMetak3.qip
+set_global_assignment -name BDF_FILE Komponente/Batak.bdf
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
